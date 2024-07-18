@@ -11,6 +11,7 @@ function DogFile(props){
         <img src={props.image}></img>
     <h3 style={{fontSize: '20px', color:'red'}}>{props.text}</h3>
     <DogDescription description = {props.description}/>
+    {props.children}
    </div>
    )
 }
